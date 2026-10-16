@@ -13,6 +13,10 @@ plugins {
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
+    
+    maven(url = "https://repo.papermc.io/repository/maven-public/") {
+        name = "papermc"
+    }
 }
 
 dependencies {
@@ -26,6 +30,8 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation(libs.guava)
+
+    compileOnly("io.papermc.paper:paper-api:26.3.build.+")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.

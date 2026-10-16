@@ -3,7 +3,10 @@
  */
 package org.raphou406;
 
-public class Library {
+import org.bukkit.event.Listener;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Library extends JavaPlugin implements Listener{
     public boolean someLibraryMethod() {
         return true;
     }

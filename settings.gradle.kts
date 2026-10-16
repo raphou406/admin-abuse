@@ -12,3 +12,4 @@ plugins {
 
 rootProject.name = "admin-abuse-mc"
 include("lib")
+project(":lib").name = rootProject.name
