@@ -1,4 +1,4 @@
-package org.raphou406.commands.tests;
+package fr.raphou406.commands.tests;
 
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.tree.LiteralCommandNode;

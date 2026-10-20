@@ -1,8 +1,8 @@
-package org.raphou406.commands;
+package fr.raphou406.commands;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import org.raphou406.commands.tests.TestCommandRegistery;
+import fr.raphou406.commands.tests.TestCommandRegistery;
 
 import io.papermc.paper.plugin.lifecycle.event.types.LifecycleEvents;
 

@@ -1,8 +1,8 @@
-package org.raphou406.commands.tests;
+package fr.raphou406.commands.tests;
 
 import com.mojang.brigadier.tree.LiteralCommandNode;
 
-import org.raphou406.commands.IBuild;
+import fr.raphou406.commands.IBuild;
 import io.papermc.paper.command.brigadier.CommandSourceStack;
 
 public class UltimateCommand implements IBuild{

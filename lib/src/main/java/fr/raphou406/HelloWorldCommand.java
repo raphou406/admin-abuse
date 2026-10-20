@@ -1,4 +1,4 @@
-package org.raphou406;
+package fr.raphou406;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;

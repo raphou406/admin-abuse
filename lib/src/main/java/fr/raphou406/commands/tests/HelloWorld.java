@@ -1,6 +1,6 @@
-package org.raphou406.commands.tests;
+package fr.raphou406.commands.tests;
 
-import org.raphou406.commands.IBuild;
+import fr.raphou406.commands.IBuild;
 
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.tree.LiteralCommandNode;

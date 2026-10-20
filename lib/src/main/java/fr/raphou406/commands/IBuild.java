@@ -1,4 +1,4 @@
-package org.raphou406.commands;
+package fr.raphou406.commands;
 
 import com.mojang.brigadier.tree.LiteralCommandNode;
 
