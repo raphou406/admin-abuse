@@ -12,6 +12,7 @@ public final class TestCommandRegistery {
             registrar.register(new HelloWorld().build());
             registrar.register(new HelloPlayer().build());
             registrar.register(new Root().build());
+            registrar.register(new UltimateCommand().build()); // must be OP and have a diamon in your inv
             registrar.register(GiveItemCommand.build());
         });
     }

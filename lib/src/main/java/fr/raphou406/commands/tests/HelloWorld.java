@@ -15,7 +15,6 @@ import net.kyori.adventure.text.format.NamedTextColor;
 public class HelloWorld implements IBuild{
     private final String name = "helloworld";
 
-
     public LiteralCommandNode<CommandSourceStack> build(){
         return  Commands.literal(name)
             .executes(this::run).build();

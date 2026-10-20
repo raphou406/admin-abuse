@@ -2,7 +2,7 @@ name: admin-abuse-Plugin
 version: 0.1.0
 main: fr.raphou406.AdminAbuse
 description: Various and funny commands for admins.
-authour: Raphou406
+author: Raphou406
 contributors: 
 api-version: '26.3'
 load: POSTWORLD
