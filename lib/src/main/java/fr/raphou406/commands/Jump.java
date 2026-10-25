@@ -2,6 +2,7 @@ package fr.raphou406.commands;
 
 import java.util.List;
 
+import org.bukkit.Particle;
 import org.bukkit.entity.Entity;
 import org.bukkit.util.Vector;
 
@@ -45,13 +46,16 @@ public class Jump implements IBuild {
             return 0;
         }
 
-        
-
-        for (Entity entity : entities) {
-            entity.setVelocity(new Vector(0, 1 * force, 0));
-            entity.playSound(Sound.sound(Key.key("block.potent_sulfur.geyser_eruption"), Sound.Source.AMBIENT, 1f, 1f));
-        }
-
+        entities.forEach(e -> Jump.jump(e, force));
         return  1;
+    }
+
+    public static void jump(Entity entity, float force){
+        entity.setVelocity(new Vector(0, 1 * force, 0));
+        entity.playSound(Sound.sound(Key.key("entity.wind_charge.wind_burst"), Sound.Source.AMBIENT, 1f, 1f));
+        Particle.GUST_EMITTER_SMALL.builder()
+            .location(entity.getLocation())
+            .count(1)
+            .spawn();
     }
 }

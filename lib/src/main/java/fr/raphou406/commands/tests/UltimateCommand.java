@@ -2,7 +2,6 @@ package fr.raphou406.commands.tests;
 
 import java.util.concurrent.CompletableFuture;
 
-import org.bukkit.Color;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 
